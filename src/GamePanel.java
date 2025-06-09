@@ -91,7 +91,7 @@ public class GamePanel extends JPanel implements ActionListener {
             // Nếu Dinosaur và Obstacle dùng "assets/file.png" thì ở đây cũng vậy.
             // Nếu chúng dùng "DinoGame/assets/file.png" thì ở đây cũng vậy.
             // Dựa trên output trước đó của bạn, "DinoGame/assets/" là đường dẫn đúng từ thư mục làm việc.
-            backgroundImage = ImageIO.read(new File("DinoGame/assets/background.png"));
+            backgroundImage = ImageIO.read(new File("assets/background.png"));
             if (backgroundImage != null) {
                 System.out.println("Tải ảnh nền thành công từ: DinoGame/assets/background.png");
             } else {

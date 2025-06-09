@@ -31,7 +31,7 @@ public class Obstacle {
             // Hiện tại, code bạn cung cấp dùng đường dẫn cố định là "DinoGame/assets/cactus.png"
             // Nếu bạn muốn dùng imagePath động, hãy thay thế dòng dưới:
             // BufferedImage originalImage = ImageIO.read(new File(imagePath));
-            BufferedImage originalImage = ImageIO.read(new File("DinoGame/assets/cactus.png")); // Giữ theo code bạn cung cấp
+            BufferedImage originalImage = ImageIO.read(new File("assets/cactus.png")); // Giữ theo code bạn cung cấp
 
             if (originalImage != null) {
                 // Tạo một BufferedImage mới với kích thước mong muốn

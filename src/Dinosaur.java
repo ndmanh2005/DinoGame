@@ -24,7 +24,7 @@ public class Dinosaur {
 
         try {
             
-            sprite = ImageIO.read(new File("DinoGame/assets/dino.png"));
+            sprite = ImageIO.read(new File("assets/dino.png"));
             this.width = sprite.getWidth(null);
             this.height = sprite.getHeight(null);
         } catch (IOException e) {
